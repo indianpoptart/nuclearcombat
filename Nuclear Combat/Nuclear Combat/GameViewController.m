@@ -8,6 +8,7 @@
 
 #import "GameViewController.h"
 #import "SharedStructures.h"
+#import <GLKit/GLKMath.h>
 
 @import simd;
 @import ModelIO;
@@ -48,6 +49,10 @@ static const size_t kMaxBytesPerFrame = 1024*1024;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    typedef struct {
+        GLKVector2 position;
+    }YourDataStruct;
     
     _constantDataBufferIndex = 0;
     _inflight_semaphore = dispatch_semaphore_create(3);
