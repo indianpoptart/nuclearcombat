@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CD608231C110F2600D4A61F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD608221C110F2600D4A61F /* main.m */; };
+		4CD608261C110F2600D4A61F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD608251C110F2600D4A61F /* AppDelegate.m */; };
+		4CD608291C110F2600D4A61F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD608281C110F2600D4A61F /* GameViewController.m */; };
+		4CD6082B1C110F2600D4A61F /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6082A1C110F2600D4A61F /* Shaders.metal */; };
+		4CD6082F1C110F2600D4A61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD6082D1C110F2600D4A61F /* Main.storyboard */; };
+		4CD608311C110F2600D4A61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD608301C110F2600D4A61F /* Assets.xcassets */; };
+		4CD608341C110F2600D4A61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD608321C110F2600D4A61F /* LaunchScreen.storyboard */; };
+		4CD6083F1C110F2600D4A61F /* Nuclear_CombatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6083E1C110F2600D4A61F /* Nuclear_CombatTests.m */; };
+		4CD6084A1C110F2600D4A61F /* Nuclear_CombatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD608491C110F2600D4A61F /* Nuclear_CombatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CD6083B1C110F2600D4A61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD608161C110F2600D4A61F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD6081D1C110F2600D4A61F;
+			remoteInfo = "Nuclear Combat";
+		};
+		4CD608461C110F2600D4A61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CD608161C110F2600D4A61F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CD6081D1C110F2600D4A61F;
+			remoteInfo = "Nuclear Combat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CD6081E1C110F2600D4A61F /* Nuclear Combat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nuclear Combat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD608221C110F2600D4A61F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CD608241C110F2600D4A61F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CD608251C110F2600D4A61F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CD608271C110F2600D4A61F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		4CD608281C110F2600D4A61F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4CD6082A1C110F2600D4A61F /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		4CD6082C1C110F2600D4A61F /* SharedStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedStructures.h; sourceTree = "<group>"; };
+		4CD6082E1C110F2600D4A61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CD608301C110F2600D4A61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CD608331C110F2600D4A61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CD608351C110F2600D4A61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD6083A1C110F2600D4A61F /* Nuclear CombatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuclear CombatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD6083E1C110F2600D4A61F /* Nuclear_CombatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nuclear_CombatTests.m; sourceTree = "<group>"; };
+		4CD608401C110F2600D4A61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD608451C110F2600D4A61F /* Nuclear CombatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nuclear CombatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD608491C110F2600D4A61F /* Nuclear_CombatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nuclear_CombatUITests.m; sourceTree = "<group>"; };
+		4CD6084B1C110F2600D4A61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD6081B1C110F2600D4A61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD608371C110F2600D4A61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD608421C110F2600D4A61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CD608151C110F2600D4A61F = {
+			isa = PBXGroup;
+			children = (
+				4CD608201C110F2600D4A61F /* Nuclear Combat */,
+				4CD6083D1C110F2600D4A61F /* Nuclear CombatTests */,
+				4CD608481C110F2600D4A61F /* Nuclear CombatUITests */,
+				4CD6081F1C110F2600D4A61F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CD6081F1C110F2600D4A61F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6081E1C110F2600D4A61F /* Nuclear Combat.app */,
+				4CD6083A1C110F2600D4A61F /* Nuclear CombatTests.xctest */,
+				4CD608451C110F2600D4A61F /* Nuclear CombatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CD608201C110F2600D4A61F /* Nuclear Combat */ = {
+			isa = PBXGroup;
+			children = (
+				4CD608241C110F2600D4A61F /* AppDelegate.h */,
+				4CD608251C110F2600D4A61F /* AppDelegate.m */,
+				4CD608271C110F2600D4A61F /* GameViewController.h */,
+				4CD608281C110F2600D4A61F /* GameViewController.m */,
+				4CD6082A1C110F2600D4A61F /* Shaders.metal */,
+				4CD6082C1C110F2600D4A61F /* SharedStructures.h */,
+				4CD6082D1C110F2600D4A61F /* Main.storyboard */,
+				4CD608301C110F2600D4A61F /* Assets.xcassets */,
+				4CD608321C110F2600D4A61F /* LaunchScreen.storyboard */,
+				4CD608351C110F2600D4A61F /* Info.plist */,
+				4CD608211C110F2600D4A61F /* Supporting Files */,
+			);
+			path = "Nuclear Combat";
+			sourceTree = "<group>";
+		};
+		4CD608211C110F2600D4A61F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CD608221C110F2600D4A61F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CD6083D1C110F2600D4A61F /* Nuclear CombatTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6083E1C110F2600D4A61F /* Nuclear_CombatTests.m */,
+				4CD608401C110F2600D4A61F /* Info.plist */,
+			);
+			path = "Nuclear CombatTests";
+			sourceTree = "<group>";
+		};
+		4CD608481C110F2600D4A61F /* Nuclear CombatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CD608491C110F2600D4A61F /* Nuclear_CombatUITests.m */,
+				4CD6084B1C110F2600D4A61F /* Info.plist */,
+			);
+			path = "Nuclear CombatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CD6081D1C110F2600D4A61F /* Nuclear Combat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD6084E1C110F2600D4A61F /* Build configuration list for PBXNativeTarget "Nuclear Combat" */;
+			buildPhases = (
+				4CD6081A1C110F2600D4A61F /* Sources */,
+				4CD6081B1C110F2600D4A61F /* Frameworks */,
+				4CD6081C1C110F2600D4A61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nuclear Combat";
+			productName = "Nuclear Combat";
+			productReference = 4CD6081E1C110F2600D4A61F /* Nuclear Combat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CD608391C110F2600D4A61F /* Nuclear CombatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD608511C110F2600D4A61F /* Build configuration list for PBXNativeTarget "Nuclear CombatTests" */;
+			buildPhases = (
+				4CD608361C110F2600D4A61F /* Sources */,
+				4CD608371C110F2600D4A61F /* Frameworks */,
+				4CD608381C110F2600D4A61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD6083C1C110F2600D4A61F /* PBXTargetDependency */,
+			);
+			name = "Nuclear CombatTests";
+			productName = "Nuclear CombatTests";
+			productReference = 4CD6083A1C110F2600D4A61F /* Nuclear CombatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CD608441C110F2600D4A61F /* Nuclear CombatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD608541C110F2600D4A61F /* Build configuration list for PBXNativeTarget "Nuclear CombatUITests" */;
+			buildPhases = (
+				4CD608411C110F2600D4A61F /* Sources */,
+				4CD608421C110F2600D4A61F /* Frameworks */,
+				4CD608431C110F2600D4A61F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD608471C110F2600D4A61F /* PBXTargetDependency */,
+			);
+			name = "Nuclear CombatUITests";
+			productName = "Nuclear CombatUITests";
+			productReference = 4CD608451C110F2600D4A61F /* Nuclear CombatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CD608161C110F2600D4A61F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nikhil Paranjape";
+				TargetAttributes = {
+					4CD6081D1C110F2600D4A61F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4CD608391C110F2600D4A61F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4CD6081D1C110F2600D4A61F;
+					};
+					4CD608441C110F2600D4A61F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4CD6081D1C110F2600D4A61F;
+					};
+				};
+			};
+			buildConfigurationList = 4CD608191C110F2600D4A61F /* Build configuration list for PBXProject "Nuclear Combat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CD608151C110F2600D4A61F;
+			productRefGroup = 4CD6081F1C110F2600D4A61F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CD6081D1C110F2600D4A61F /* Nuclear Combat */,
+				4CD608391C110F2600D4A61F /* Nuclear CombatTests */,
+				4CD608441C110F2600D4A61F /* Nuclear CombatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD6081C1C110F2600D4A61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD608341C110F2600D4A61F /* LaunchScreen.storyboard in Resources */,
+				4CD608311C110F2600D4A61F /* Assets.xcassets in Resources */,
+				4CD6082F1C110F2600D4A61F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD608381C110F2600D4A61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD608431C110F2600D4A61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CD6081A1C110F2600D4A61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD6082B1C110F2600D4A61F /* Shaders.metal in Sources */,
+				4CD608261C110F2600D4A61F /* AppDelegate.m in Sources */,
+				4CD608291C110F2600D4A61F /* GameViewController.m in Sources */,
+				4CD608231C110F2600D4A61F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD608361C110F2600D4A61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD6083F1C110F2600D4A61F /* Nuclear_CombatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD608411C110F2600D4A61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD6084A1C110F2600D4A61F /* Nuclear_CombatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CD6083C1C110F2600D4A61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD6081D1C110F2600D4A61F /* Nuclear Combat */;
+			targetProxy = 4CD6083B1C110F2600D4A61F /* PBXContainerItemProxy */;
+		};
+		4CD608471C110F2600D4A61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CD6081D1C110F2600D4A61F /* Nuclear Combat */;
+			targetProxy = 4CD608461C110F2600D4A61F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CD6082D1C110F2600D4A61F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD6082E1C110F2600D4A61F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CD608321C110F2600D4A61F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD608331C110F2600D4A61F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CD6084C1C110F2600D4A61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CD6084D1C110F2600D4A61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CD6084F1C110F2600D4A61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nuclear Combat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilparanjape.Nuclear-Combat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CD608501C110F2600D4A61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nuclear Combat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilparanjape.Nuclear-Combat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CD608521C110F2600D4A61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Nuclear CombatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilparanjape.Nuclear-CombatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nuclear Combat.app/Nuclear Combat";
+			};
+			name = Debug;
+		};
+		4CD608531C110F2600D4A61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nuclear CombatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilparanjape.Nuclear-CombatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nuclear Combat.app/Nuclear Combat";
+			};
+			name = Release;
+		};
+		4CD608551C110F2600D4A61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Nuclear CombatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilparanjape.Nuclear-CombatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nuclear Combat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CD608561C110F2600D4A61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Nuclear CombatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikhilparanjape.Nuclear-CombatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Nuclear Combat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CD608191C110F2600D4A61F /* Build configuration list for PBXProject "Nuclear Combat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD6084C1C110F2600D4A61F /* Debug */,
+				4CD6084D1C110F2600D4A61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD6084E1C110F2600D4A61F /* Build configuration list for PBXNativeTarget "Nuclear Combat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD6084F1C110F2600D4A61F /* Debug */,
+				4CD608501C110F2600D4A61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CD608511C110F2600D4A61F /* Build configuration list for PBXNativeTarget "Nuclear CombatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD608521C110F2600D4A61F /* Debug */,
+				4CD608531C110F2600D4A61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CD608541C110F2600D4A61F /* Build configuration list for PBXNativeTarget "Nuclear CombatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD608551C110F2600D4A61F /* Debug */,
+				4CD608561C110F2600D4A61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CD608161C110F2600D4A61F /* Project object */;
+}
